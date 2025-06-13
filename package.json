@@ -76,7 +76,7 @@
     "@types/tinycolor2": "^1.4.6",
     "@vitejs/plugin-vue": "4.6.2",
     "axe-playwright": "^2.0.3",
-    "chromatic": "12.1.1",
+    "chromatic": "12.2.0",
     "eslint": "9.28.0",
     "eslint-config-prettier": "10.1.5",
     "eslint-plugin-prettier": "5.4.1",
