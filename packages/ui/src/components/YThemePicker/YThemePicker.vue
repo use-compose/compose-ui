@@ -1,5 +1,7 @@
 <template>
-  <YFlow class="theme-picker" align="center" style="--flex-gap: var(--_spacing-md)">
+  <YFlow class="theme-picker" align="center" style="
+
+--flex-gap: var(--_spacing-md)">
     <YSection v-if="showColors" title="Colours">
       <YRow type="cluster">
         <YColorInput
@@ -12,13 +14,17 @@
         />
       </YRow>
       <YRow type="cluster">
-        <YButton size="small" style="--component-margin-bottom: 0" @click="randomize">
+        <YButton size="small" style="
+
+--component-margin-bottom: 0" @click="randomize">
           Randomize
         </YButton>
         <YButton
           size="small"
           variant="outlined"
-          style="--component-margin-bottom: 0"
+          style="
+
+--component-margin-bottom: 0"
           @click="resetColors"
         >
           Reset colours
@@ -61,7 +67,9 @@
       <YButton
         size="small"
         variant="outlined"
-        style="--component-margin-bottom: 0"
+        style="
+
+--component-margin-bottom: 0"
         :disabled="overrideCount === 0"
         @click="resetTokens"
       >
