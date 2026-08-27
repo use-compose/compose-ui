@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    :class="['color-circle', isSmall ? 'color-circle--small' : 'color-circle--normal', isSelected ? 'color-circle--selected' : '']"
+    :class="['color-circle', isSmall ? 'color-circle-small' : 'color-circle-normal', isSelected ? 'color-circle-selected' : '']"
     :style="{ backgroundColor: color }"
     @click="$emit('click', $event)"
   >
@@ -28,19 +28,23 @@ defineEmits<{ click: [event: Event] }>()
   border-style: solid;
   cursor: pointer;
 }
-.color-circle--small {
+
+.color-circle-small {
   height: 1rem;
   width: 1rem;
 }
-.color-circle--normal {
+
+.color-circle-normal {
   height: 1.5rem;
   width: 1.5rem;
 }
-.color-circle--selected {
+
+.color-circle-selected {
   border-width: 2px;
   border-color: var(--color-neutral-900);
 }
-.color-circle:not(.color-circle--selected) {
+
+.color-circle:not(.color-circle-selected) {
   border-width: 1px;
   border-color: var(--color-neutral-200);
 }

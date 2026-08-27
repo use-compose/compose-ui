@@ -70,6 +70,7 @@ const currentFont = computed(() => fonts.find((f) => props.editor.isActive('text
   font-size: 0.875rem;
   white-space: nowrap;
 }
+
 .font-option {
   display: flex;
   padding: 0.4375rem;

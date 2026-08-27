@@ -34,5 +34,11 @@ const components = computed(() => generateMenuComponents(props.menuOptions))
   gap: 0.125rem;
   padding: 0.25rem 0.5rem;
   border-bottom: 1px solid var(--color-neutral-200);
+  height: 2.5rem;
+
+  & > * {
+    height: auto;
+    max-height: 100%;
+  }
 }
 </style>

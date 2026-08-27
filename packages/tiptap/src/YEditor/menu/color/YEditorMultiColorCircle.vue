@@ -66,12 +66,14 @@ function blurInput() { isInputBlurred.value = true }
   backdrop-filter: blur(1px);
   cursor: pointer;
 }
+
 .color-input {
   width: 100%;
   height: 100%;
   cursor: pointer;
   opacity: 0;
 }
+
 .multi-color-circle {
   background: conic-gradient(
     #f00 0%, #fa0 15%, #af0 30%, #0f0 45%,

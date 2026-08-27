@@ -22,7 +22,7 @@
           >✕</button>
         </div>
         <template v-if="additionalColors.length > 0">
-          <div class="section-title section-title--spaced">Custom</div>
+          <div class="section-title section-title-spaced">Custom</div>
           <div class="color-grid">
             <YEditorColorCircle
               v-for="color in additionalColors"
@@ -89,15 +89,18 @@ function onSetNewColor(color: Color) {
   font-size: 0.875rem;
   font-weight: 500;
 }
-.section-title--spaced {
+
+.section-title-spaced {
   margin-top: 0.625rem;
   margin-bottom: 0.25rem;
 }
+
 .color-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.625rem;
 }
+
 .unset-btn {
   height: 1.5rem;
   width: 1.5rem;

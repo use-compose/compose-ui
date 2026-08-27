@@ -49,21 +49,24 @@ function insertImage() {
 <style scoped>
 .image-dialog {
   border-radius: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%);
   padding: 1.5rem;
   min-width: 320px;
   border: 1px solid var(--color-neutral-200);
 }
+
 .dialog-title {
   margin: 0 0 1rem;
   font-size: 1rem;
   font-weight: 500;
 }
+
 .dialog-body {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
+
 .url-input {
   border: 1px solid var(--color-neutral-300);
   border-radius: 0.25rem;
@@ -73,11 +76,13 @@ function insertImage() {
   outline: none;
   box-sizing: border-box;
 }
+
 .dialog-actions {
   display: flex;
   gap: 0.5rem;
   justify-content: flex-end;
 }
+
 .btn-cancel {
   border: 1px solid var(--color-neutral-300);
   border-radius: 0.25rem;
@@ -86,6 +91,7 @@ function insertImage() {
   cursor: pointer;
   background: white;
 }
+
 .btn-insert {
   background: var(--color-primary-800);
   color: white;

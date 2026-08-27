@@ -41,11 +41,13 @@ defineExpose({ focus: () => inputRef.value?.focus() })
   flex-direction: column;
   gap: 0.625rem;
 }
+
 .input-label {
   font-weight: 500;
   color: var(--color-neutral-900);
   font-size: 0.875rem;
 }
+
 .input-field {
   display: flex;
   align-items: center;
@@ -53,6 +55,7 @@ defineExpose({ focus: () => inputRef.value?.focus() })
   border: 1px solid var(--color-neutral-300);
   padding: 0.625rem;
 }
+
 .input-el {
   background: white;
   width: 100%;
@@ -61,6 +64,7 @@ defineExpose({ focus: () => inputRef.value?.focus() })
   padding: 0;
   outline: none;
 }
+
 .input-el::placeholder {
   color: var(--color-neutral-300);
 }
