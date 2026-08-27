@@ -16,8 +16,10 @@
   },
   "dependencies": {
     "@fontsource-variable/roboto": "5.2.9",
-    "culori": "4.0.1",
-    "vue": "3.5.16"
+    "culori": "4.0.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "@testing-library/vue": "8.1.0",
@@ -44,6 +46,7 @@
     "vite-plugin-vue-devtools": "8.0.5",
     "vite-tsconfig-paths": "6.0.4",
     "vitest": "4.1.10",
+    "vue": "3.5.16",
     "vue-tsc": "2.2.10"
   },
   "bin": {

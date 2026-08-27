@@ -1,5 +1,5 @@
 <template>
-  <div :class="['menu-group', isVertical ? 'menu-group--vertical' : 'menu-group--horizontal', isSmallGap ? 'menu-group--tight' : '']">
+  <div :class="['menu-group', isVertical ? 'menu-group-vertical' : 'menu-group-horizontal', isSmallGap ? 'menu-group-tight' : '']">
     <slot></slot>
   </div>
 </template>
@@ -23,16 +23,20 @@ const isVertical = computed(() => props.orientation === Orientation.Vertical)
 .menu-group {
   display: flex;
 }
-.menu-group--vertical {
+
+.menu-group-vertical {
   flex-direction: column;
 }
-.menu-group--horizontal {
+
+.menu-group-horizontal {
   margin: 0 0.75rem;
 }
-.menu-group--tight {
+
+.menu-group-tight {
   gap: 0.125rem;
 }
-.menu-group:not(.menu-group--tight) {
+
+.menu-group:not(.menu-group-tight) {
   gap: 0.625rem;
 }
 </style>

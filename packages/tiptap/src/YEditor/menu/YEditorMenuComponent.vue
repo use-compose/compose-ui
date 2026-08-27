@@ -1,6 +1,6 @@
 <template>
   <Component :is="dynamicComponent" v-bind="getComponentProps" @click="handleComponentClick">
-    <Component :is="menuComponent.iconComponent" v-if="menuComponent.icon" size="xs" />
+    <Component :is="menuComponent.iconComponent" v-if="menuComponent.icon" class="menu-component-icon"  />
     <slot v-if="menuComponent.children" />
   </Component>
 </template>
@@ -55,3 +55,10 @@ function handleComponentClick(event: Event) {
   }
 }
 </script>
+
+<style scoped>
+  .menu-component-icon {
+    height: 100%;
+    max-width: auto;
+  }
+</style>

@@ -57,6 +57,7 @@ function onSubmit() {
   padding: 0.375rem;
   width: 100%;
 }
+
 .form-actions {
   display: flex;
   align-items: center;
@@ -64,6 +65,7 @@ function onSubmit() {
   margin-top: -0.75rem;
   margin-bottom: -0.75rem;
 }
+
 .btn-submit {
   display: flex;
   border: none;
@@ -72,9 +74,11 @@ function onSubmit() {
   border-radius: 0.375rem;
   cursor: pointer;
 }
+
 .btn-submit:disabled {
   opacity: 0.5;
 }
+
 .btn-reset {
   display: flex;
   border: none;
@@ -82,10 +86,12 @@ function onSubmit() {
   background: transparent;
   cursor: pointer;
 }
+
 .divider {
   border-color: var(--color-neutral-200);
   margin: 0 -1rem;
 }
+
 .remove-link-btn {
   display: flex;
   align-items: center;
@@ -95,9 +101,11 @@ function onSubmit() {
   cursor: pointer;
   color: var(--color-neutral-700);
 }
+
 .remove-link-btn:hover {
   color: var(--color-primary-800);
 }
+
 .remove-link-label {
   font-size: 0.875rem;
   font-weight: 500;

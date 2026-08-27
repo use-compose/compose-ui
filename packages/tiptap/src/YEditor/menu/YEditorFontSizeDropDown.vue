@@ -48,6 +48,7 @@ const currentLabel = computed(() => {
   color: var(--color-neutral-700);
   font-size: 0.875rem;
 }
+
 .size-option {
   display: flex;
   padding: 0.4375rem;

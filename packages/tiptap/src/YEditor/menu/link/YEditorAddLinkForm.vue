@@ -41,6 +41,7 @@ function reset() { linkValue.value = '' }
 .add-link-form {
   width: 100%;
 }
+
 .form-actions {
   display: flex;
   align-items: center;
@@ -48,6 +49,7 @@ function reset() { linkValue.value = '' }
   margin-top: -0.75rem;
   margin-bottom: -0.75rem;
 }
+
 .btn-submit {
   display: flex;
   border: none;
@@ -56,9 +58,11 @@ function reset() { linkValue.value = '' }
   border-radius: 0.375rem;
   cursor: pointer;
 }
+
 .btn-submit:disabled {
   opacity: 0.5;
 }
+
 .btn-reset {
   display: flex;
   border: none;

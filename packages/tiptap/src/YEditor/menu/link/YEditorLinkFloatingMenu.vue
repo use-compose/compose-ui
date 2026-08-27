@@ -52,7 +52,7 @@ onUnmounted(() => window.removeEventListener('mouseup', onMouseUp))
   z-index: 50;
   border-radius: 0.75rem;
   background: white;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
   padding: 0.625rem;
   min-width: 280px;
   display: flex;

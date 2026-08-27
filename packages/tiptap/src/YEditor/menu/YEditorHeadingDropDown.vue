@@ -50,6 +50,7 @@ const selectedHeading = computed(() => {
   color: var(--color-neutral-700);
   font-size: 0.875rem;
 }
+
 .heading-option {
   display: flex;
   padding: 0.625rem;

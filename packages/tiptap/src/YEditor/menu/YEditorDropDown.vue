@@ -44,6 +44,7 @@ const { isOpen, toggle } = inject(dropdownKey) as DropdownInterface
   position: relative;
   display: flex;
 }
+
 .dropdown-trigger {
   padding: 0.125rem 0.3125rem;
   display: flex;

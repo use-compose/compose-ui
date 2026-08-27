@@ -30,6 +30,7 @@ const link = computed(() => props.editor.storage.linkMenu?.link)
   width: 100%;
   column-gap: 0.625rem;
 }
+
 .link-url {
   color: var(--color-neutral-900);
   margin: 0;
@@ -39,11 +40,13 @@ const link = computed(() => props.editor.storage.linkMenu?.link)
   font-size: 0.875rem;
   flex: 1;
 }
+
 .annotation-actions {
   display: flex;
   align-items: center;
   column-gap: 0.3125rem;
 }
+
 .btn-icon {
   display: flex;
   border: none;
@@ -51,9 +54,11 @@ const link = computed(() => props.editor.storage.linkMenu?.link)
   padding: 0.3125rem;
   cursor: pointer;
 }
+
 .btn-edit {
   border-radius: 0.25rem;
 }
+
 .btn-edit:hover {
   background: var(--color-neutral-100);
 }
