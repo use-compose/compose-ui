@@ -44,7 +44,7 @@
     "stylelint-config-standard-scss": "15.0.1",
     "syncpack": "14.0.0-alpha.37",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.68.0"
+    "typescript-eslint": "8.69.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
